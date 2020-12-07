@@ -11,7 +11,6 @@ def checkbag(bag, contents):
         outp = outp or checkbag(x, bagDict[x])
     return outp
 
-bagList = []
 bagDict = {}
 for line in open('inputs/input7.txt', 'r'):
     test1 = re.split(' contain ', line)
@@ -25,7 +24,6 @@ for line in open('inputs/input7.txt', 'r'):
     for x in test2:
         if (len(x) >= 3):
             toBagList.append(x.strip())
-    bagList.append(toBagList)
     bagDict[test1[0]] = toBagList
 
 
