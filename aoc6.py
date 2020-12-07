@@ -3,7 +3,7 @@ tempstr = ''
 groupsarr = []
 pplarr = []
 nn = 0
-for line in open('input6.txt', 'r'):
+for line in open('inputs/input6.txt', 'r'):
     nn += 1
     if line == '' or line == '\n':
         groupsarr.append(tempstr)

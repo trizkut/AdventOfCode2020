@@ -1,6 +1,6 @@
 myList = []
 seats = []
-for line in open('input5.txt', 'r'):
+for line in open('inputs/input5.txt', 'r'):
     rowstr = line[0:7]
     colstr = line[7:len(line)]
     lower = 0

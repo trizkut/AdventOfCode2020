@@ -5,8 +5,6 @@ validPassports = 0
 def processPassport(pp):
     valpp = 0
     numf = 0
-    print(pp)
-    print(len(pp))
     for i in range(0, len(pp), 2):
         if (pp[i] == 'byr'):
             if ( (len(pp[i+1]) == 4) and (int(pp[i+1]) >= 1920) and (int(pp[i+1]) <= 2002) ):
@@ -43,20 +41,18 @@ def processPassport(pp):
         elif (pp[i] == 'pid'):
             if (len(pp[i+1]) == 9 and int(pp[i+1])):
                 numf += 1
-    print(numf)
     return numf
 
 
 
-for line in open('input4.txt', 'r'):
+for line in open('inputs/input4.txt', 'r'):
     if (line == '\n'): # new passport, process old data
         valFields = processPassport(curPassport)
         if (valFields == 7): validPassports += 1
         curPassport = []
     else:
         curPassport += re.split('[: ]',line.rstrip())
-    #print(curPassport)
-    #print(line)
+
 valFields = processPassport(curPassport)
 if (valFields == 7): validPassports += 1
 
