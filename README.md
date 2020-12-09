@@ -10,3 +10,4 @@
 | Day 06: [Custom Customs](https://adventofcode.com/2020/day/6)              |  2/2  |
 | Day 07: [Handy Haversacks](https://adventofcode.com/2020/day/7)              |  2/2  |
 | Day 08: [Handheld Halting](https://adventofcode.com/2020/day/8)              |  2/2  |
+| Day 09: [Encoding Error](https://adventofcode.com/2020/day/9)              |  2/2  |
