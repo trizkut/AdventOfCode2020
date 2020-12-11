@@ -45,7 +45,7 @@ def processPassport(pp):
 
 
 
-for line in open('inputs/input4.txt', 'r'):
+for line in open('inputs/input04.txt', 'r'):
     if (line == '\n'): # new passport, process old data
         valFields = processPassport(curPassport)
         if (valFields == 7): validPassports += 1

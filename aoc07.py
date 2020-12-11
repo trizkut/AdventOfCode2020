@@ -12,7 +12,7 @@ def checkbag(bag, contents):
     return outp
 
 bagDict = {}
-for line in open('inputs/input7.txt', 'r'):
+for line in open('inputs/input07.txt', 'r'):
     test1 = re.split(' contain ', line)
     test1[0] = test1[0].replace('bags', '').strip()
     test1[1] = test1[1].replace('.', '')

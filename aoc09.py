@@ -3,7 +3,7 @@ data = []
 preamble_length = 25
 og_data = []
 i = 0
-for line in open('inputs/input9.txt', 'r'):
+for line in open('inputs/input09.txt', 'r'):
     if (i < preamble_length):
         preamble.append(int(line))
     else:

@@ -2,7 +2,7 @@ accumulator = 0
 index = 0
 instrList = []
 
-for line in open('inputs/input8.txt', 'r'):
+for line in open('inputs/input08.txt', 'r'):
     instr = line.strip().split(" ")
     instrList.append(instr)
 

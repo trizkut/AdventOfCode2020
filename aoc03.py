@@ -3,7 +3,7 @@ slopedown = 2
 
 inArr = []
 lines = 0
-for line in open('inputs/input3.txt', 'r'):
+for line in open('inputs/input03.txt', 'r'):
     inArr.append(line.rstrip())
     lines += 1
 print(lines)

@@ -12,7 +12,7 @@ def checkbag(bag, contents, countDict):
 bagList = []
 bagDict = {}
 bagCountDict = {}
-for line in open('inputs/input7.txt', 'r'):
+for line in open('inputs/input07.txt', 'r'):
     test1 = re.split(' contain ', line)
     nums = re.findall('\d+', line)
 

@@ -1,5 +1,5 @@
 myList = []
-for line in open('inputs/input1.txt'):
+for line in open('inputs/input01.txt'):
     myList.append(int(line))
 
 myList.sort()

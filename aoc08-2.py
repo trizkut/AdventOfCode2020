@@ -1,7 +1,7 @@
 
 instrList = []
 
-for line in open('inputs/input8.txt', 'r'):
+for line in open('inputs/input08.txt', 'r'):
     instr = line.strip().split(" ")
     instrList.append(instr)
 
@@ -14,7 +14,7 @@ for i in range(0, len(instrList)):
     index = 0
     dupe = 0
     executedList = [False] * len(instrList)
-    
+
     while (index < len(instrList)):
         curInstr = instrList[index][0]
         if (index == i):
