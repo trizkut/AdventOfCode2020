@@ -14,4 +14,6 @@
 | Day 10: [Adapter Array](https://adventofcode.com/2020/day/10)              |  2/2  |
 | Day 11: [Seating System](https://adventofcode.com/2020/day/11)              |  2/2  |
 | Day 12: [Rain Risk](https://adventofcode.com/2020/day/12)              |  2/2  |
+| Day 13: [Shuttle Search](https://adventofcode.com/2020/day/13)              |  2/2  |
+| Day 14: [Docking Data](https://adventofcode.com/2020/day/14)              |  2/2  |
 
